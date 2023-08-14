@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import java.util.List;
 import java.util.Random;
 
-
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.junit.Assert.assertTrue;
 

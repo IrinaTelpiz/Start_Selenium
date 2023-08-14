@@ -38,6 +38,10 @@ public class CatalogPage extends LoadableComponent<CatalogPage> {
 
     public void openItem(int productIndex){
         catalogProductElements.get(productIndex).click();
+//        WebElement product = catalogProductElements.get(productIndex);
+//        JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+//        javascriptExecutor.executeScript("arguments[0].scrollIntoView();", product);
+//        javascriptExecutor.executeScript("arguments[0].click();", product);
     }
 
     @Override
